@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Vitor Santana</title>
+  <!-- Fonte Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #f7f7f7, #e9ecef);
+      color: #333;
+      padding-top: 60px;
+    }
+    .foto {
+  display: block;       /* transforma em bloco */
+  margin: 0 auto 20px;  /* centraliza horizontalmente */
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #333;
+}
+    h1 {
+      margin-bottom: 30px;
+      font-weight: 600;
+    }
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 28px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      border-radius: 8px;
+      transition: transform 0.2s ease-in-out;
+    }
+    .links a:hover {
+      transform: scale(1.05);
+    }
+    .sql {
+      background: #007bff;
+    }
+    .sql:hover {
+      background: #0056b3;
+    }
+    .bi {
+      background: #28a745;
+    }
+    .bi:hover {
+      background: #1e7e34;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Troque o caminho pela sua foto -->
+    <img src="../fotos/capa_hub.jpg" alt="Foto de Vitor Santana" class="foto">
+    <h1>Portfólio - Vitor Santana</h1>
+    <div class="links">
+      <!-- Troque os links pelos corretos -->
+      <a href="https://github.com/07VitorChaves/MYSQL---Portfolio" target="_blank" class="sql">Portfólio SQL</a>
+      <a href="https://sites.google.com/view/vitorchavesportifolio/início" target="_blank" class="bi">Portfólio BI</a>
+    </div>
+  </div>
+</body>
+</html>
